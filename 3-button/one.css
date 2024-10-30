@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#click1{
+    height: 50px;
+    width: 150px;
+}
+#click2{
+    height: 50px;
+    width: 150px;
+}
+#click3{
+    height: 50px;
+    width: 150px;
+}

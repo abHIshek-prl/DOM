@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(black);
+    background-color: black;
+}
+
+#bar{
+    background-color: transparent !important;
+    
+}
+#drop{
+    background-color: transparent !important;
+}
+#itm:hover{
+    background-color: transparent !important;
+}
+
+#head{
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+}
+#head:hover{
+    color: red;
+}
+.option{
+    color: white !important;
+    font-family: monospace;
+    font-weight: bold;
+}
+.option:hover{
+    color: red !important;
+}
+
+#three{
+    gap: 50px;
+}
+
+#ten{
+    gap: 10px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pic {
+    height: 99%;
+    width: 99.5%;
+    background-image: url(images/black-black-and-white-night-street-light-wallpaper-thumb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    gap: 20px;
+}
+.page {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.note {
+    height: 50%;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.nav1 {
+    height: 10% !important;
+    width: 100% !important;
+    background-color: rgb(255, 0, 0) !important;
+}
+
+#says {
+    color: rgb(225, 225, 98);
+    font-weight: bolder;
+    font-family: monospace;
+}
+#one {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+#srh {
+    background-color: transparent !important;
+    border: 1px solid red !important;
+}
+#clor {
+    color: white !important;
+    border: 1px solid red !important;
+}
+#clor:hover {
+    color: red !important;
+    border: 1px solid white !important;
+    background-color: transparent !important;
+}
+::placeholder {
+    color: white !important;
+}
+
+#qute {
+    height: 50px;
+    width: 150px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+}
+
+#qute:hover {
+    color: rgb(125, 14, 33);
+    border: 1px solid rgb(255, 255, 255);
+}
+#name {
+    color: rgb(217, 224, 96);
+    font-weight: bolder;
+    font-family: monospace;
+}@media screen and (max-width :768px){
+    body{
+        background-color: black !important;
+    }
+    .main {
+        background-color: black !important;
+    }
+}

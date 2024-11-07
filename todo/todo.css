@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://wallpaperbat.com/img/750309-black-elegant-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav{
+    height: 10%;
+    width: 90%;
+    background-color:  transparent;
+}
+
+.options{
+    float: right !important;
+}
+
+
+
+#bar{
+    background-color: transparent !important;
+    
+}
+#drop{
+    background-color: transparent !important;
+}
+#itm:hover{
+    background-color: transparent !important;
+}
+
+#head{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: x-large;
+}
+#head:hover{
+    color: rgb(250, 230, 0);
+}
+.option{
+    color: white !important;
+    font-family: monospace;
+    font-weight: bolder;
+}
+.option:hover{
+    color: rgb(238, 255, 0) !important;
+}
+
+#three{
+    gap: 50px;
+}
+
+#ten{
+    gap: 10px !important;
+    box-sizing: border-box;
+    margin-left: 150px;
+}
+#line{
+    background-color: transparent !important;
+    border: 0;
+}
+
+
+
+
+
+
+.section{
+    height: 90%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feild{
+    height: 90%;
+    width: 50%;
+    background-color:transparent;
+    box-shadow: 2px 2px 70px rgb(0, 0, 0);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+}
+.feild::-webkit-scrollbar {
+      display: none;
+}
+.do{
+    width: 100%;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+}
+#inputbox{
+    max-height: 100%;
+    width: 90%;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+#oneln{
+    max-height: 10%;
+    display: flex;
+    width: 90%;
+    gap: 10px;
+}
+#press{
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    background-color: transparent;
+    height: 100%;
+    
+
+}
+
+button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+#tasklist{
+    list-style-type:none;
+    gap: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 5px;
+  
+}
+#tasklist li{
+    color: white;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    border-bottom: 1px solid white;
+    width: 90%;
+}@media screen and (max-width:426px){
+    .feild{
+        width: 90%;
+        box-shadow: 2px 2px 70px rgb(255, 255, 255);
+    }
+    
+}@media screen and (max-width:320px){
+    #line{
+        background-color: transparent !important;
+        border: 0;
+        position: relative;
+        bottom: 93px;
+        left: 200px;
+    }
+    
+}
+
